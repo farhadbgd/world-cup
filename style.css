@@ -331,6 +331,11 @@ Responsiveness using Media query
         flex-wrap: wrap;
     }
 
+    .hidden {
+        display: none;
+    }
+
+
 
 }
 
@@ -385,6 +390,10 @@ medium-device
 
     .view-all {
         visibility: visible;
+    }
+
+    .hidden {
+        display: none;
     }
 
 }
