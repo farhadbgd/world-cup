@@ -66,6 +66,7 @@ body {
 .player img {
     width: 581px;
     height: 613px;
+    display: block;
 }
 
 /*------------------
