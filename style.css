@@ -233,6 +233,44 @@ hr {
     padding: 0px 25px;
 }
 
+/* ----------------------
+    animation
+---------------------- */
+
+.world-cup {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    animation: mymove 7s infinite;
+    display: flex;
+    margin-top: 400px;
+
+
+}
+
+.cup {
+
+    height: 225px;
+    width: auto;
+    margin: 0px;
+}
+
+#div1 {
+    animation-timing-function: linear;
+}
+
+
+@keyframes mymove {
+    from {
+        left: -1500px;
+    }
+
+    to {
+        left: 1800px;
+    }
+}
+
+
 /* -----------------------------
 Responsiveness using Media query
 -------------------------------- */
